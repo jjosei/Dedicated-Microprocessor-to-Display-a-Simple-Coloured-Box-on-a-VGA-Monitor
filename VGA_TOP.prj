@@ -1,0 +1,5 @@
+vhdl work "VGA PROJECT/V_FSM.vhd"
+vhdl work "VGA PROJECT/Velevenbitcounter.vhd"
+vhdl work "VGA PROJECT/H_FSM.vhd"
+vhdl work "VGA PROJECT/Helevenbitcounter.vhd"
+vhdl work "VGA PROJECT/VGA_TOP.vhd"

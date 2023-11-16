@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Sep 27 14:47:53 2023
+# Process ID: 14372
+# Log file: /home/jesse/VGA_ADAPTER_PROJECT/planAhead_run_1/planAhead.log
+# Journal file: /home/jesse/VGA_ADAPTER_PROJECT/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/jesse/VGA_ADAPTER_PROJECT/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  BLUE]]
+startgroup
+set_property package_pin R11 [get_ports BLUE_OUT]
+endgroup
+startgroup
+set_property package_pin T12 [get_ports GREEN_OUT]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports RED_OUT]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports CLOCK]
+endgroup
+startgroup
+set_property package_pin R9 [get_ports HSync]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports VSync]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports RED]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports GREEN]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports BLUE]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports RESET]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list BLUE]]
+set_property iostandard LVCMOS33 [get_ports [list BLUE_OUT]]
+set_property iostandard LVCMOS33 [get_ports [list CLOCK]]
+set_property iostandard LVCMOS33 [get_ports [list GREEN]]
+set_property iostandard LVCMOS33 [get_ports [list GREEN_OUT]]
+set_property iostandard LVCMOS33 [get_ports [list HSync]]
+set_property iostandard LVCMOS33 [get_ports [list RED]]
+set_property iostandard LVCMOS33 [get_ports [list RED_OUT]]
+set_property iostandard LVCMOS33 [get_ports [list RESET]]
+set_property iostandard LVCMOS33 [get_ports [list VSync]]
+save_constraints
