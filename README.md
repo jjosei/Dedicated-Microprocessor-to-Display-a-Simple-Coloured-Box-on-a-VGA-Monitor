@@ -1,4 +1,4 @@
-# Dedicated-Microprocessor-to-Display-a-Simple-Coloured-Box-on-a-VGA-Monitor
+ Dedicated-Microprocessor-to-Display-a-Simple-Coloured-Box-on-a-VGA-Monitor
 
 #Design Methodology
 #Schematic for processor in directory
