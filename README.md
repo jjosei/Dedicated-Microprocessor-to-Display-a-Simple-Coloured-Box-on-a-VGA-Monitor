@@ -1,6 +1,6 @@
  Dedicated-Microprocessor-to-Display-a-Simple-Coloured-Box-on-a-VGA-Monitor
 
-#Design Methodology
+Design Methodology
 #Schematic for processor in directory
 #Xilinx ISE used for design using VHDL
 #The processor consists of a Datapath and Control Unit.
